@@ -1,0 +1,60 @@
+{
+    "name":"The ColdBox Paginator",
+    "slug":"cbpaginator",
+    "version":"2.6.2",
+    "author":"Javier Quintero",
+    "shortDescription":"This module builds a pagination struct for API responses and custom data tables.",
+    "location":"forgeboxStorage",
+    "directory":"",
+    "createPackageDirectory":true,
+    "packageDirectory":"",
+    "homepage":"https://github.com/quinteroj/pagination",
+    "documentation":"https://github.com/quinteroj/pagination",
+    "repository":{
+        "type":"github",
+        "url":"https://github.com/quinteroj/pagination"
+    },
+    "bugs":"",
+    "description":"",
+    "instructions":"readme.md",
+    "changelog":"",
+    "type":"modules",
+    "keywords":[],
+    "private":false,
+    "engines":[
+        {
+            "type":"lucee",
+            "version":">=4.5.x"
+        },
+        {
+            "type":"adobe",
+            "version":">=10.0.0"
+        }
+    ],
+    "defaultEngine":"",
+    "defaultPort":0,
+    "projectURL":"https://github.com/quinteroj/pagination",
+    "license":[
+        {
+            "type":"",
+            "url":""
+        }
+    ],
+    "contributors":[],
+    "dependencies":{},
+    "devDependencies":{
+        "testbox":"^3.1.0+339"
+    },
+    "installPaths":{
+        "testbox":"testbox/"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests",
+        ".engine",
+        ".travis.yml",
+        ".gitignore",
+        "server.json"
+    ]
+}
